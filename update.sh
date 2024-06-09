@@ -1,7 +1,4 @@
 #/bin/bash
-# Version: 1.0.1
+# Version: 1.0.2
 
-i=$(date)
-echo "$i" >> /tmp/test.txt
-echo "done2"
-#ok
+echo "done4" >> /tmp/test.txt
