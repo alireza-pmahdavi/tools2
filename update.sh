@@ -4,3 +4,4 @@
 i=$(date)
 echo "$i" >> /tmp/test.txt
 echo "done2"
+#ok
