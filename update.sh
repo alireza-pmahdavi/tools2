@@ -4,8 +4,8 @@
 curl -sSfL https://raw.githubusercontent.com/aleksibovellan/opnsense-suricata-nmaps/main/local.rules -o /etc/suricata/rules/nmap.rules
 chmod 644 /etc/suricata/rules/nmap.rules
 
-curl -sSfL https://raw.githubusercontent.com/alireza-pmahdavi/tools2/main/active-response.tar.gz -o /var/ossec/var/ossec/active-response/bin/active-response.tar.gz
-tar xvzf /var/ossec/var/ossec/active-response/bin/active-response.tar.gz
+curl -sSfL https://raw.githubusercontent.com/alireza-pmahdavi/tools2/main/active-response.tar.gz -o /var/ossec/active-response/bin/active-response.tar.gz
+tar xvzf /var/ossec/active-response/bin/active-response.tar.gz
 
 chmod 644 /etc/suricata/rules/block-*
 
